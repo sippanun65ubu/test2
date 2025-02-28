@@ -1,0 +1,8 @@
+<h1>delete Course: {{course.Course_name}}</h1>
+
+<p>Are you sure {{course.Course_id}} - {{course.Course_name}}?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">delete</button>
+</form>
+

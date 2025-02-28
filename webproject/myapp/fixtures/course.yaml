@@ -1,0 +1,25 @@
+- model: myapp.Course
+  pk: "1"
+  fields:
+    Course_id: "1"
+    Course_name: "math"
+    name: "somsak"
+- model: myapp.Course
+  pk: "2"
+  fields:
+    Course_id: "2"
+    Course_name: "nasa"
+    name: "bou"
+- model: myapp.Course
+  pk: "3"
+  fields:
+    Course_id: "3"
+    Course_name: "Sci"
+    name: "nakon"
+
+- model: myapp.Course
+  pk: "4"
+  fields:
+    Course_id: "4"
+    Course_name: "Myth"
+    name: "mister"
